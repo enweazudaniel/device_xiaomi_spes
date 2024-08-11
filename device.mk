@@ -207,7 +207,12 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libsdmutils \
     libtinyxml \
-    libvulkan
+    libvulkan \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+    libprocessgroup.vendor \
+    libcurl \
+    libpng.vendor
 
 PRODUCT_PACKAGES += \
     disable_configstore
